@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b99862f4-9d0c-4239-ac51-07e6326a23a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VowelConsonant.py" afterPath="$PROJECT_DIR$/VowelConsonant.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ComputationalThinking.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="VowelConsonant.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VowelConsonant.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.062937066" vertical-offset="0" max-vertical-offset="715">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.12587413" vertical-offset="0" max-vertical-offset="715">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -272,7 +272,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="I added a python file called &quot;VowelConsonant.py&quot;, In it I printed &quot;Hello world&quot; and then started the process of creating a class" />
-    <option name="LAST_COMMIT_MESSAGE" value="I added a python file called &quot;VowelConsonant.py&quot;, In it I printed &quot;Hello world&quot; and then started the process of creating a class" />
+    <MESSAGE value="I added a python file called &quot;VowelConsonant.py&quot;, In it I printed &quot;Hello world&quot; and then started the process of creating a class, I just finished the class" />
+    <option name="LAST_COMMIT_MESSAGE" value="I added a python file called &quot;VowelConsonant.py&quot;, In it I printed &quot;Hello world&quot; and then started the process of creating a class, I just finished the class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -281,8 +282,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/VowelConsonant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.062937066" vertical-offset="0" max-vertical-offset="715">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.12587413" vertical-offset="0" max-vertical-offset="715">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding />
         </state>
       </provider>
