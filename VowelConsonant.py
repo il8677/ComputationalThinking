@@ -1,6 +1,7 @@
 vowels = "aeiouAEIOU"
 consonants = "bcdfghjklmnpqrstvwxyz"
 consonants+=consonants.upper()
+#The f means final, I thought acually writing final would take to long
 fvowels = ""
 fcon=""
 fother=""
