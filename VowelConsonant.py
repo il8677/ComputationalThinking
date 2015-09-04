@@ -1,6 +1,5 @@
 vowels = "aeiouAEIOU"
-consonants = "bcdfghjklmnpqrstvwxyz"
-consonants+=consonants.upper()
+consonants = "bcdfghjklmnpqrstvwxyz"; consonants+=consonants.upper()
 #The f means final, I thought acually writing final would take to long
 fvowels = ""
 fcon=""
@@ -21,4 +20,4 @@ for char in userInput:
 print("Process Completed")
 print("Vowels: " + fvowels)
 print("Consonants: " + fcon)
-print("Other: "+fother)
+print("Other: "+ fother)
