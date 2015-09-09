@@ -1,5 +1,7 @@
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 final = ""
+def reverse(sentance):
+
 def encrypt(key, sentance):
     returnMessage = ""
     for char in sentance:
