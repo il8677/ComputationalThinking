@@ -43,7 +43,7 @@ class caesar:
         else:
             self.encrypt(key, sentance)
 
-    def encrypt(key, sentance):
+    def encrypt(self, key, sentance):
         returnMessage = ""
         for char in sentance:
             pos = alphabet.find(char)
@@ -55,7 +55,7 @@ class caesar:
                 else:
                     returnMessage += alphabet[pos + key]
         return returnMessage
-    def decrypt(key, sentance):
+    def decrypt(self, key, sentance):
         returnMessage = ""
         for char in sentance:
             pos = alphabet.find(char)
