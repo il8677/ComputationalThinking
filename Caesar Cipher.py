@@ -5,9 +5,9 @@ message = ''
 
 message = input("Secret Message: ")
 
-key = 13
+key = int(input("Key: "))
 
-mode = 'encrypt'
+mode = input('encrypt or decrypt: ').lower()
 
 LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 

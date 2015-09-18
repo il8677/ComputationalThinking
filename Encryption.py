@@ -13,6 +13,7 @@ class reverse:
         else:
             self.encrypt(sentance)
     def encrypt(sentence):
+        print("Encrypting")
         final = ""
         i = len(sentence) -1
         while(i != -1):
@@ -20,6 +21,7 @@ class reverse:
             i -= 1
         return  final;
     def decrypt(sentence):
+        print("Decrypting")
         final = ""
         i = len(sentence) -1
         while(i != -1):
@@ -44,6 +46,7 @@ class caesar:
             self.encrypt(key, sentance)
 
     def encrypt(self, key, sentance):
+        print("Encrypting " + sentance)
         returnMessage = ""
         for char in sentance:
             pos = alphabet.find(char)
@@ -56,6 +59,7 @@ class caesar:
                     returnMessage += alphabet[pos + key]
         return returnMessage
     def decrypt(self, key, sentance):
+        print("Decrypting")
         returnMessage = ""
         for char in sentance:
             pos = alphabet.find(char)
@@ -82,14 +86,16 @@ while (not done):
     else:
         print("ANSWER NOT ENCRYPT OR DECRYPT")
 
-
+i = -1
 for encryption in encryptions:
+    print ("Currently Checking: " + encryption.get().name);
+    i+=1
     if encryption.get().name == encryptionType:
-        if endy == "ENCRYPT":
-            print("Encrypting")
-            print(encryption.get().start(True, sentance))
-        else:
-            print(encryption.get().start(False, sentance))
-            print("Decrypting")
-    else:
-        print("FATAL ERROR, NON ENCRYPTION TYPE INPUTED")
+        position = i
+        break
+if endy == "ENCRYPT":
+    print(encryptions[i].get().start(True, sentance))
+elif endy == "DECRYPT":
+    print(encryptions[i].get().start(False, sentance))
+else:
+    print("FATAL ERROR, NON ENCRYPTION TYPE INPUTED")
