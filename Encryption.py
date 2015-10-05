@@ -57,6 +57,7 @@ class caesar:
                     returnMessage+= alphabet[pos + key - 26]
                 else:
                     returnMessage += alphabet[pos + key]
+        print(returnMessage)
         return returnMessage
     def decrypt(self, key, sentance):
         print("Decrypting")

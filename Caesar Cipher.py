@@ -2,31 +2,32 @@
 #Http://inventwithpython..com/hacking
 
 message = ''
+while message != "exit" or "Exit" or "EXIT":
+    message = ''
+    message = input("Secret Message: ")
 
-message = input("Secret Message: ")
+    key = int(input("Key: "))
 
-key = int(input("Key: "))
+    mode = input('encrypt or decrypt: ').lower()
 
-mode = input('encrypt or decrypt: ').lower()
+    LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    translated = ''
 
-translated = ''
+    message = message.upper()
 
-message = message.upper()
-
-for symbol in message:
-    if  symbol in LETTERS:
-        num=LETTERS.find(symbol)
-        if mode=='encrypt':
-            num = num + key
-        elif mode == 'decrypt':
-            num = num-key
-        if num >= len(LETTERS):
-            num = num - len(LETTERS)
-        elif num < 0:
-            num = num + len(LETTERS)
-        translated=translated+LETTERS[num]
-    else:
-        translated = translated + symbol
-print(translated)
+    for symbol in message:
+        if  symbol in LETTERS:
+            num=LETTERS.find(symbol)
+            if mode=='encrypt':
+                num = num + key
+            elif mode == 'decrypt':
+                num = num-key
+            if num >= len(LETTERS):
+                num = num - len(LETTERS)
+            elif num < 0:
+                num = num + len(LETTERS)
+            translated=translated+LETTERS[num]
+        else:
+            translated = translated + symbol
+    print(translated)
