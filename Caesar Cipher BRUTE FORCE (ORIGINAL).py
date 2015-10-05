@@ -1,5 +1,5 @@
 print("Welcome to the Caesar Cipher Hacker")
-sentance = input("Please enter your encrypted message: ")
+sentance = input("Please enter your encrypted message: ").upper()
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 def decrypt(key, sentance):
         returnMessage = ""
