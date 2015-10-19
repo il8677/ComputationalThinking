@@ -3,9 +3,8 @@ sentance = input("Please enter your encrypted message: ").upper()
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 print("Brute forcing")
 
-for i in range(0, alphabet.__len__()):
+for key in range(0, alphabet.__len__()):
     returnMessage = ""
-    key = i;
     for char in sentance:
         pos = alphabet.find(char)
         if char not in alphabet:
